@@ -1,16 +1,16 @@
 # BTplay
 Bluetooth audio output switching for Kodi 18 on Linux
-Switches audio output between current device and bluealsa.
+Switches audio output between current device and Bluealsa.
 
 PREREQUISITES
 1. Bluealsa up and running
 2. Bluetooth device connected to system (obviously, it has to be trusted to connect automatically)
 3. "Allow remote control via HTTP" in Kodi settings turned on
 
-It stores current audio device before switch to Bluealsa and restores it after bluealsa switched off.
+It stores current audio device before switch to Bluealsa and restores it after Bluealsa switch off.
 
 USING
-- Input Your port number and credincials from Kodi's "Web server" settings page (Settings -> Control -> Web server)
+- Input Your port number and credencials from Kodi's "Web server" settings page (Settings -> Control -> Web server)
 - If port number isn't inputted, addon falls back to standard HTTP port 80 which is probably not what You want
 - If username or password isn't inputted, addon omits authorization, so minimalistic setting is port number only; 
   one should use username/password fields only if it used in Kodi itself.
