@@ -10,7 +10,7 @@ PREREQUISITES
 It stores current audio device before switch to Bluealsa and restores it after bluealsa switched off.
 
 USING
-Input Your port number and credincials from Kodi's "Web server" settings page (Settings -> Control -> Web server)
+- Input Your port number and credincials from Kodi's "Web server" settings page (Settings -> Control -> Web server)
 - If port number isn't inputted, addon falls back to standard HTTP port 80 which is probably not what You want
 - If username or password isn't inputted, addon omits authorization, so minimalistic setting is port number only; 
   one should use username/password fields only if it used in Kodi itself.
