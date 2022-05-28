@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Web server">
+        <setting label="Same data as in Kodi Setting/Services/Control" type="lsep"/>
+        <setting id="port" type="text" label="Port" default=""/>
+        <setting id="username" type="text" label="Username" default=""/>
+        <setting id="password" type="text" label="Password" default="" option="hidden"/>
+    </category>
+</settings>

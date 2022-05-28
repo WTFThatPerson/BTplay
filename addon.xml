@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.btplay" name="Bluetooth play" version="0.0.1" provider-name="StrangeAlien">
+	<requires>
+		<import addon="xbmc.python" version="2.7.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Bluetooth audio device switching</summary>
+		<description lang="en_GB">Switches on and off audio play through connected Bluetooth device</description>
+		<language></language>
+		<platform>all</platform>
+	</extension>
+</addon>
