@@ -36,7 +36,7 @@ ADDONID    = ADDON.getAddonInfo('id')
 VERSION    = ADDON.getAddonInfo("version")
 
 def log(txt):
-    xbmc.log("##### [%s] - Version: %s: %s" % (ADDONNAME,VERSION,txt),level=xbmc.LOGNOTICE)
+    xbmc.log("##### [%s] - Version: %s: %s" % (ADDONNAME,VERSION,txt),level=xbmc.LOGDEBUG)
 
 if __name__ == '__main__':
 
